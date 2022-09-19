@@ -6,6 +6,7 @@ body{
 	perspective: 50em;
 	transform-origin: 50% 0px;
 	min-height: 100vh;
+	color: white;
 }
 
 .scene{
@@ -40,6 +41,14 @@ body{
 	background-image: repeating-conic-gradient(from 45deg, #000 0deg 90deg, white 90deg 180deg);
 	background-size: 1em 1em;
 	border-radius: 30px;
+}
+
+.info{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
 }
 
 @keyframes spin{
